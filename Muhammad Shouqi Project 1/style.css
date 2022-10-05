@@ -49,7 +49,6 @@ nav{
 .navLinks a:hover{
     border-radius: 10px;
     color: rgb(15, 246, 234);
-    font-size: 21px;
 }
 .btn {
     padding: 10px 20px;
@@ -134,7 +133,7 @@ section h3{
     width: 90%;
     margin: 0 auto;
     flex-wrap: wrap;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     gap: 15px;
     justify-content: center;
 }
@@ -227,7 +226,7 @@ hr{
 
 /* .....FOOTER1..... */
 .footer1{
-    height: 30vh;
+    /* height: 30vh; */
     background-color: rgb(8, 8, 133);
     text-align: center;
     padding: 30px;
@@ -297,7 +296,7 @@ margin: 0 auto;
 @media (max-width:915px) {
     .sContainer2{
         gap: 15px;
-        border: 1px red solid;
+        /* border: 1px red solid; */
         justify-content: flex-start;
     }
     .box{
@@ -414,9 +413,6 @@ margin: 0 auto;
     }    
     .box2{
         width: 100%;
-    }
-    .footer1{
-        height: 35vh;
     }
     .footer2Container{
         align-items: center;
